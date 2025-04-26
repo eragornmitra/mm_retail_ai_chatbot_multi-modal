@@ -9,7 +9,7 @@
 1. **Install Dependencies:**
    
    ```
-   pip install -r requirements.txt
+     pip install -r requirements.txt
    ```
 
 2. **Configure SQL Server:**
@@ -56,8 +56,8 @@
 11)  Copy the contents of the ***config_edit.toml*** file and paste them in the ***config.toml*** file the newly created chainlit folder and reload the web page.
     
 12)  On the login page, use the following credentials:
-    - Username: john.doe
-    - Password: dummyPassword1
+        - Username: john.doe
+        - Password: dummyPassword1
 
 That's it, you are good to go!
 
