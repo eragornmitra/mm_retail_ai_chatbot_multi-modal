@@ -3,6 +3,8 @@
 
 - Using Semantic Kernel, Chainlit, Azure AI Search, SSMS & Azure AI Foundry, this end-to-end Retail chatbot can browse products, take orders, and get details of previous orders by interacting with the user using natural language. 
 - It has in-built multi-modality, allowing inputs through voice, texts, and even images.
+- To see the Architecture Diagrams, Agentic Infrastructure and Prompt Flow, go to:-
+    https://github.com/lokesh4444/agent-groot
 
 ## Steps to Run the Code
 
@@ -34,18 +36,18 @@
     - Go to Literal AI and create a new project.
     - Fill up the Literal API key in the .env file.
   
-6) Chainlit Authentication:
+6. **Chainlit Authentication:**
 
     In your terminal, run:
 
     ```
      chainlit create-secret
     ```
-8)  Run SQL Scripts:
+8. **Run SQL Scripts:**
 
     - Execute the ***users.sql*** and ***invoices.sql*** scripts in your query editor.
       
-10) Run the Application:
+10. **Run the Application:**
 
     In the terminal, run:
    
@@ -53,9 +55,13 @@
      chainlit run multi_modal_product_chat.py -w
     ```
 
-11)  Copy the contents of the ***config_edit.toml*** file and paste them in the ***config.toml*** file the newly created chainlit folder and reload the web page.
+11)  **Configure Login Page:**
+
+     - Go to the ***config.toml*** file in the newly created chainlit folder.
+     - Change the value of **login_page_image** to "https://img.freepik.com/free-vector/niche-service-marketplace-concept-illustration_114360-7583.jpg?semt=ais_country_boost&w=740" and uncomment.
+     - Reload the webpage. 
     
-12)  On the login page, use the following credentials:
+13)  On the login page, use the following credentials:
         - Username: john.doe
         - Password: dummyPassword1
 
