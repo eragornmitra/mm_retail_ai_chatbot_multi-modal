@@ -1,0 +1,13 @@
+chainlit
+semantic-kernel
+azure-search-documents
+azure-core
+httpx
+numpy
+requests
+sqlalchemy
+pyodbc
+pydantic
+openai
+pandas
+urllib3
