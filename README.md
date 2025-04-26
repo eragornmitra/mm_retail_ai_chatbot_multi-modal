@@ -17,7 +17,7 @@
 2. **Configure SQL Server:**
 
     - Provide the connection string of your SQL server in the ***.env*** file.
-    - Run the ***load_catalog_to_sql.py file***.
+    - Run the ***load_catalog_to_sql.py*** file.
    
 3. **Set Up Azure AI Search Service:**
 
