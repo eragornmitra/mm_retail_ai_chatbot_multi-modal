@@ -3,7 +3,7 @@
 
 - Using Semantic Kernel, Chainlit, Azure AI Search, SSMS & Azure AI Foundry, this end-to-end Retail chatbot can browse products, take orders, and get details of previous orders by interacting with the user using natural language. 
 - It has in-built multi-modality, allowing inputs through voice, texts, and even images.
-- To see the Architecture Diagrams, Agentic Infrastructure and Prompt Flow, go to:-
+- To see the Architecture Diagrams, Agentic Infrastructure, Prompt Flow and demo video, go to:-
     https://github.com/lokesh4444/agent-groot
 
 ## Steps to Run the Code
