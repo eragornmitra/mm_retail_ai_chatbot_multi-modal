@@ -1,5 +1,5 @@
 
-# Multi-modal Retail Chatbot using Gen AI Agentic Applications
+# Multi-Modal Retail Chatbot using Gen AI Agentic Applications
 
 - Using Semantic Kernel, Chainlit, Azure AI Search, SSMS & Azure AI Foundry, this end-to-end Retail chatbot can browse products, take orders, and get details of previous orders by interacting with the user using natural language. 
 - It has in-built multi-modality, allowing inputs through voice, texts, and even images.
