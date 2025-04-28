@@ -53,7 +53,7 @@
 
     - Extract the ***MCPFirst.zip*** file.
     - Install the nugget packages listed in the ***packages.txt*** file.
-    - Copy the absolute file path of the ***MCPFirst.csproj*** file in the MCPFirst folder and insert it in the argument of the         
+    - Copy the absolute file path of the ***MCPFirst.csproj*** file in the ***MCPFirst*** folder and insert it in the argument of the         
       'MCPStdioPlugin' in the 'initialize_mcp_plugin' function.
     - Run the ***Program.cs*** file.
       
@@ -72,8 +72,8 @@
      - Reload the webpage. 
     
 12. On the login page, use the following credentials:
-        - Username: john.doe
-        - Password: dummyPassword1
+     - Username: john.doe
+     - Password: dummyPassword1
 
 That's it, you are good to go!
 
