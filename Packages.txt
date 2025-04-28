@@ -1,0 +1,7 @@
+Microsoft.Extensions.DependencyInjection
+Microsoft.Extensions.Hosting
+Microsoft.Extensions.Logging
+System.Text.Json
+Microsoft.Data.SqlClient
+PdfSharpCore
+ModelContextProtocol
