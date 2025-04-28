@@ -43,9 +43,16 @@
     ```
      chainlit create-secret
     ```
+    Add the credentials to ***.env*** file.
+   
 8. **Run SQL Scripts:**
 
     - Execute the ***users.sql*** and ***invoices.sql*** scripts in your query editor.
+  
+9. **MCP Server Integration**
+
+    - Extract the ***MCPFirst.zip*** file to the project folder. Install the nugget packages listed in the ***packages.txt*** file. Copy the absolute file path of the ***MCPFirst.csproj*** file in the MCPFirst folder and insert it in the argument of the         
+      'MCPStdioPlugin' in the 'initialize_mcp_plugin' function. Then run the ***Program.cs*** file.
       
 10. **Run the Application:**
 
@@ -54,14 +61,14 @@
     ```
      chainlit run multi_modal_product_chat.py -w
     ```
-
-11)  **Configure Login Page:**
+    
+11. **Configure Login Page:**
 
      - Go to the ***config.toml*** file in the newly created chainlit folder.
      - Change the value of **login_page_image** to "https://img.freepik.com/free-vector/niche-service-marketplace-concept-illustration_114360-7583.jpg?semt=ais_country_boost&w=740" and uncomment.
      - Reload the webpage. 
     
-13)  On the login page, use the following credentials:
+12. On the login page, use the following credentials:
         - Username: john.doe
         - Password: dummyPassword1
 
