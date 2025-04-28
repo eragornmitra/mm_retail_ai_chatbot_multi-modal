@@ -1,5 +1,5 @@
-chainlit
-semantic-kernel
+chainlit==2.4.400
+semantic-kernel==1.28.0
 azure-search-documents
 azure-core
 httpx
