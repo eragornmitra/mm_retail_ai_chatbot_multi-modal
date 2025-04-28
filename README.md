@@ -52,7 +52,7 @@
 9. **MCP Server Integration**
 
     - Extract the ***MCPFirst.zip*** file.
-    - Install the nugget packages listed in the ***packages.txt*** file.
+    - Install the nugget packages listed in the ***Packages.txt*** file.
     - Copy the absolute file path of the ***MCPFirst.csproj*** file in the ***MCPFirst*** folder and insert it in the argument of the         
       'MCPStdioPlugin' in the 'initialize_mcp_plugin' function.
     - Run the ***Program.cs*** file.
