@@ -10,9 +10,9 @@
 
 1. **Install Dependencies:**
    
-   ```
-     pip install -r requirements.txt
-   ```
+       ```
+         pip install -r requirements.txt
+       ```
 
 2. **Configure SQL Server:**
 
