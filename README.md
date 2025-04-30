@@ -51,10 +51,12 @@
   
 9. **MCP Server Integration**
 
-    - Extract the ***MCPFirst.zip*** file.
+    - Extract the ***MCPServer.zip*** file.
     - Install the nugget packages listed in the ***Packages.txt*** file.
     - Copy the absolute file path of the ***MCPFirst.csproj*** file in the ***MCPFirst*** folder and insert it in the argument of the         
-      'MCPStdioPlugin' in the 'initialize_mcp_plugin' function.
+      'MCPStdioPlugin' in the 'initialize_mcp_plugin' function of the Python code.
+    - In the ***App.config*** file, give the connection string of the SQL server.
+    - Change the file path of the ***pdfFilePath*** variable in the ***Program.cs*** file.
     - Run the ***Program.cs*** file.
       
 10. **Run the Application:**
